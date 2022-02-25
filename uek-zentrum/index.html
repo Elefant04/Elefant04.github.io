@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ch-de">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ÜK-Zentrum</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="icon" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon-120.png">
+	<link rel="shortcut icon" sizes="196x196" href="images/favicon-196.png">
+
+	<meta name="description" content="Überbetriebliche Kurse in Rapperswil-Jona. Unterliegt der OST Rapperswil-Jona">
+	<meta name="author" content="Pius Senn">
+	<meta name="designer" content="Stefano Micheroli">
+	<meta name="revisit-after" content="30 days">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords"
+		content="OST Rapperswil, ÜKZR, ÜKZR Rapperswil, OST, Überbetriebliche Kurse Rapperswil, Rapperswil-Jona, Rapperswil">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<img src="images/button-nach-oben.png" onclick="topFunction()" id="goToTopButton" title="Nach Oben">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="images/navButton.png" alt="" width="30px" height="30px" onclick="navCloseOpen()" id="navButton">
+		<nav id="nav">
+			<img src="images/closeButton.png" alt="" width="30px" height="30px" onclick="navCloseOpen()"
+				class="navButton">
+			<ul>
+				<li><a href="index.html">Startseite</a></li>
+				<li><a href="module.html">Module</a></li>
+				<li><a href="lehrpersonen.html">Lehrpersonen</a></li>
+				<li><a href="standort.html">Standort</a></li>
+				<li><a href="links.html">Links</a></li>
+			</ul>
+		</nav>
+		<h1>
+			ÜK-Zentrum Informatik
+			Rapperswil-Jona
+		</h1>
+		<a href="https://www.ost.ch/">
+			<img src="images/logo-ost.svg" alt="Logo der Ostschweizer Fachhochschulen">
+		</a>
+	</header>
+	<div class="slidershow middle">
+		<img src="images/sliderArrowLeft.png" height="80px" width="80px" id="sliderBackButton"
+			onclick="sliderPictureBack()" class="sliderDirectionButton">
+		<img src="images/sliderArrowRight.png" height="80px" width="80px" id="sliderForwardButton"
+			onclick="sliderPictureForward()" class="sliderDirectionButton">
+
+		<div class="slides">
+
+			<input type="radio" name="r" id="r1" :checked onclick="sliderBarUpdate()">
+			<input type="radio" name="r" id="r2" onclick="sliderBarUpdate()">
+			<input type="radio" name="r" id="r3" onclick="sliderBarUpdate()">
+			<input type="radio" name="r" id="r4" onclick="sliderBarUpdate()">
+			<input type="radio" name="r" id="r5" onclick="sliderBarUpdate()">
+
+			<div class="slide s1">
+				<img src="images/ost-bild-5.jpg" alt="" class="indexSiteImage">
+			</div>
+			<div class="slide">
+				<img src="images/ost-bild-4.jpg" alt="" class="indexSiteImage">
+			</div>
+			<div class="slide">
+				<img src="images/ost-bild-3.jpg" alt="" class="indexSiteImage">
+			</div>
+			<div class="slide">
+				<img src="images/ost-bild-2.jpg" alt="" class="indexSiteImage">
+			</div>
+			<div class="slide">
+				<img src="images/ost-bild-1.jpg" alt="" class="indexSiteImage">
+			</div>
+		</div>
+
+
+		<div class="navigation">
+			<label for="r1" class="bar selectedSliderBar" id="r1Bar"></label>
+			<label for="r2" class="bar" id="r2Bar"></label>
+			<label for="r3" class="bar" id="r3Bar"></label>
+			<label for="r4" class="bar" id="r4Bar"></label>
+			<label for="r5" class="bar" id="r5Bar"></label>
+		</div>
+	</div>
+	<article id="article">
+		<div class="infoBoxArea">
+			<section class="infoBox">
+				<h3>Unser Auftrag</h3>
+				<p>Die Lernenden der Informatikmittelschule Rapperswil-Jona durchlaufen ihre Ausbildung an drei
+					Lernorten.</p>
+
+				<p>Am Berufs- und Weiterbildungszentrum Rapperswil-Jona besuchen sie den Berufsmatura-Unterricht und die
+					Berufsschulmodule der Informatik-Ausbildung.</p>
+
+				<p>Bei uns im ÜK-Zentrum erweitern und vertiefen sie ihre Informatik-Kompetenzen in den
+					überbetrieblichen Kursen (ÜK).</p>
+
+				<p>Im vierten Ausbildungsjahr absolvieren die Lernenden ein Praktikum in einem Unternehmen, dabei
+					arbeiten sie mit an der Entwicklung von Applikationen.</p>
+			</section>
+			<section class="infoBox">
+				<h3>Unsere Leidenschaft</h3>
+				<p>Ausbilden ist unsere Leidenschaft. Wir wollen die Lernenden fördern und unterstützen, sodass sie sich
+					zu wertvollen jungen Arbeitskräften entwickeln bzw. sich eine ausgezeichnete Ausgangslage für ein
+					allfälliges Studium erarbeiten.</p>
+				<p>Wir gestalten unseren Unterricht vielseitig und abwechslungsreich. Wir legen viel Wert auf die
+					Kreativität und Selbstständigkeit der Lernenden. Zahlreiche Übungssequenzen führen die Lernenden in
+					Teamarbeit durch. Damit fördern wir neben ihren Fachkompetenzen auch ihre Kommunikations- und
+					Kooperationsfähigkeiten.</p>
+			</section>
+			<section class="infoBox">
+				<h3>Leitbild</h3>
+				<p>Wir gestalten und moderieren einen modernen und effizienten Unterricht.</p>
+				<p>Wir fordern und fördern die Lernenden.</p>
+				<p>Wir pflegen einen gepflegten und wertschätzenden Umgang.</p>
+				<p>Wir arbeiten zusammen mit den beteiligten Bildungspartnern:</p>
+				<ul>
+					<li>BWZ Rapperswil-Jona</li>
+					<li>Kantonsschule am Brühl, St.Gallen</li>
+					<li>Kantonschule Sargans</li>
+					<li>Amt für Berufsbildung des Kantons St.Gallen</li>
+					<li>Steuerungskommission Informatik des Kantons St.Gallen</li>
+					<li>ICT Berufsbildung Ostschweiz</li>
+				</ul>
+			</section>
+			<section class="infoBox">
+				<h3>Infrastruktur</h3>
+				<p>Wir arbeiten mit modernen Mitteln und Technologien. Wir leben BYOD, die Lernenden arbeiten auf ihren
+					eigenen Notebooks. Den Unterricht unterstützen wir mit einer aktuellen Schulungsplattform.</p>
+				<p>In den Hardware-nahen Modulen arbeiten wir auf den leistungsfähigen Informatik-Infrastrukturen der
+					HSR.</p>
+			</section>
+		</div>
+
+		<div class="infoBoxArea">
+			<div class="infoBoxAreaTitleFlex">
+				<h3 class="infoBoxAreaTitle"><a href="module.html">Module</a></h3>
+			</div><section class="infoBox moduleBox" id="module-187">
+				<h3>Modul 187</h3>
+				<h4>Betriebssysteme installieren, konfigurieren und administrieren (noch Modul 305)</h4>
+				<div class="moduleInfo">
+					<h4>Kompetenz</h4>
+					<p>Betriebssysteme installieren und für den Multiuserbetrieb konfigurieren. System mit
+						Betriebssystem-Befehlen und Hilfsprogrammen administrieren.</p>
+				</div>
+				<div class="moduleDescriptionLinkContainer">
+					<a href="module.html#module-187">Mehr Anzeigen</a>
+				</div>
+			</section>
+			<section class="infoBox moduleBox" id="module-307">
+				<h3>Modul 307</h3>
+				<h4>Interaktive Webseite mit Formular erstellen</h4>
+				<div class="moduleInfo">
+					<h4>Kompetenz</h4>
+					<p>Interaktive Webseiten gemäss Aufgabenstellung mit einer serverseitigen Programmiersprache
+						realisieren und testen.</p>
+				</div>
+				<div class="moduleDescriptionLinkContainer">
+					<a href="module.html#module-307">Mehr Anzeigen</a>
+				</div>
+			</section>
+			<section class="infoBox moduleBox" id="module-105">
+				<h3>Modul 105</h3>
+				<h4>Datenbanken mit SQL bearbeiten</h4>
+				<div class="moduleInfo">
+					<h4>Kompetenz</h4>
+					<p>Logisches Datenbankschema mit Standardsprachmitteln (Structured Query Language SQL) in ein
+						relationales Datenbank Management System (RDBMS) integrieren. Transaktionen durchführen.</p>
+				</div>
+				<div class="moduleDescriptionLinkContainer">
+					<a href="module.html#module-105">Mehr Anzeigen</a>
+				</div>
+			</section>
+			<section class="infoBox moduleBox" id="module-335">
+				<h3>Modul 335</h3>
+				<h4>Mobile-Applikation realisieren</h4>
+				<div class="moduleInfo">
+					<h4>Kompetenz</h4>
+					<p>Eine Applikation für mobile Geräte nach Vorgabe umsetzen und testen.</p>
+				</div>
+				<div class="moduleDescriptionLinkContainer">
+					<a href="module.html#module-335">Mehr Anzeigen</a>
+				</div>
+			</section>
+			<section class="infoBox moduleBox" id="module-106">
+				<h3>Modul 106</h3>
+				<h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</h4>
+				<div class="moduleInfo">
+					<h4>Kompetenz</h4>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+						ut labore et dolore magna aliquyam</p>
+				</div>
+				<div class="moduleDescriptionLinkContainer">
+					<a href="module.html#module-106">Mehr Anzeigen</a>
+				</div>
+			</section>
+		</div>
+
+		<div id="teacherInfo" class="infoBoxArea">
+			<div class="infoBoxAreaTitleFlex">
+				<h3 class="infoBoxAreaTitle"><a href="lehrpersonen.html">Lehrpersonen</a></h3>
+			</div>
+			<section class="teacherInfoBox">
+				<a href="lehrpersonen.html#marco_grob"><img src="images/teachers/marco_grob.jpg"
+						alt="Portrait von Marco Grob"></a><br>
+				<a class="teacherLink" href="lehrpersonen.html#marco_grob">Marco Grob</a>
+			</section>
+			<section class="teacherInfoBox">
+				<a href="lehrpersonen.html#susanne_mathys"><img src="images/teachers/susanne_mathys.jpg"
+						alt="Portrait von Susanne Mathys"></a><br>
+				<a class="teacherLink" href="lehrpersonen.html#susanne_mathys">Susanne Mathys</a>
+			</section>
+			<section class="teacherInfoBox">
+				<a href="lehrpersonen.html#joerg_negwer"><img src="images/teachers/joerg_negwer.jpg"
+						alt="Portrait von Jörg Negwer"></a><br>
+				<a class="teacherLink" href="lehrpersonen.html#joerg_negwer">Jörg Negwer</a>
+			</section>
+			<section class="teacherInfoBox">
+				<a href="lehrpersonen.html#pius_senn"><img src="images/teachers/pius_senn.jpg"
+						alt="Portrait von Pius Senn"></a><br>
+				<a class="teacherLink" href="lehrpersonen.html#pius_senn">Pius Senn</a>
+			</section>
+		</div>
+
+		<div id="standortInfo" class="infoBoxArea">
+			<div class="infoBoxAreaTitleFlex">
+				<h3 class="infoBoxAreaTitle"><a href="standort.html">Standort</a></h3>
+			</div>
+			<iframe
+				src='https://map.geo.admin.ch/embed.html?lang=de&topic=ech&bgLayer=ch.swisstopo.swissimage&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen,KML%7C%7Chttps:%2F%2Fpublic.geo.admin.ch%2FhMmo3Kh2QlK_gZqbAngZeg,KML%7C%7Chttps:%2F%2Fgist.githubusercontent.com%2FElefant04%2Fd39c2ba62361784ed1cede2097444222%2Fraw%2Fb3f5681b6d57a5f28fc587cb73ae3d4fdda32adb%2Fukzr-map-map.geo.admin.ch.kml&layers_opacity=1,1,1,0.8,0.8,1&layers_visibility=false,false,false,false,false,true&layers_timestamp=20181231,,,,,&E=2704559.86&N=1231834.04&zoom=10.510920225678673'
+				width='560' height='450' frameborder='0' style='border:0'></iframe>
+			<iframe
+				src='https://map.geo.admin.ch/embed.html?lang=de&topic=ech&bgLayer=ch.swisstopo.swissimage&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen,KML%7C%7Chttps:%2F%2Fpublic.geo.admin.ch%2FhMmo3Kh2QlK_gZqbAngZeg,KML%7C%7Chttps:%2F%2Fgist.githubusercontent.com%2FElefant04%2Fd39c2ba62361784ed1cede2097444222%2Fraw%2Fb3f5681b6d57a5f28fc587cb73ae3d4fdda32adb%2Fukzr-map-map.geo.admin.ch.kml&layers_opacity=1,1,1,0.8,0.8,1,1&layers_visibility=false,false,false,false,false,true,true&layers_timestamp=20181231,,,,,,&E=2704398.84&N=1231214.39&zoom=10.639581178819483'
+				width='560' height='450' frameborder='0' style='border:0'></iframe>
+
+		</div>
+		<div class="infoBoxArea" id="contact" style="visibility: hidden;">
+			<section class="infoBox teacherBox">
+				<h3>Ansprechperson</h3>
+				<div class="teacherBoxTopArea">
+					<img src="images/teachers/pius_senn.jpg" alt="Portrait von Pius Senn">
+					<div class="textArea">
+						<div class="personInfo">
+							<h3>Pius Senn</h3>
+							<h4>Leiter ÜK-Zentrum</h4>
+						</div>
+						<div class="personDescriptionArea">
+							<blockquote>
+								<p>"Mir liegt der persönliche Kontakt mit den Lernenden am Herzen.</p>
+								<p>Bei Fragen melden Sie sich einfach per eMail oder Telefon."</p>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+				<div class="contactInfo">
+					<a class="mailAdress" href="mailto:pius.senn@bwz-rappi.ch">pius.senn@bwz-rappi.ch</a>
+					<a class="telNumber" href="tel:0041792258640"> Mobil: 079 225 86 40</a>
+				</div>
+			</section>
+		</div>
+	</article>
+	<footer id="footer">
+		<a href="impressum.html">Impressum</a>
+		<a id="contactOpenLink" onclick="contactCloseOpen()">Kontakt</a>
+		<section>
+			<h3>Anschrift</h3>
+			<p>
+				ÜK-Zentrum Rapperswil-Jona <br>
+				Oberseestrasse 10 <br>
+				8640 Rapperswil-Jona</p>
+		</section>
+	</footer>
+	<div id="fadeOverlay" onclick="navCloseOpen()"></div>
+</body>
+
+</html>
